@@ -110,10 +110,8 @@ function AccountingFirm() {
 
   return (
     <div className="af-root">
-
       {/* ── Top Nav (your shared component) ── */}
       <TopNavigator />
-
       {/* ── Hero ── */}
       <section className="af-hero" id="af-home" style={{ backgroundImage: `url(${sky1})` }}>
         <div className="container af-hero-inner">
