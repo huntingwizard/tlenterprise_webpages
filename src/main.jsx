@@ -11,7 +11,6 @@ import AccountingFirm from './Home.jsx'
 import Contact from './Contact.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
     <HashRouter>
       <Routes>
         <Route path="/app" element={<App />} />
@@ -20,6 +19,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<AccountingFirm />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </HashRouter>
-  </React.StrictMode>,
+    </HashRouter>,
 )
