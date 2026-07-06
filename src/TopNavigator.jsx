@@ -1,11 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import { HashRouter, Route, Routes, Link, useNavigate } from 'react-router-dom';
-import App from './App.jsx';
-import App1 from './App1.jsx';
-import App2 from './App2.jsx';
+import { Link } from 'react-router-dom';
 
 function TopNavigator() {
   return (
