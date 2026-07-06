@@ -22,7 +22,6 @@ function App1() {
   return (
     <div className="as-root">
       <TopNavigator />
-
       {/* ── HERO with sky2 background ── */}
       <section
         className="as-hero"
